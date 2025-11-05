@@ -1,16 +1,15 @@
 streamlit==1.39.0
-opencv-python-headless==4.10.0.84
 
-# MediaPipe требует колёс под Py<=3.12
+# MediaPipe + его зависимости
 mediapipe==0.10.14
+protobuf>=4.25.3,<5
 
-# Совместимые пины под mediapipe и openCV
+# Научный стек, совместимый с Py3.12 и mediapipe 0.10.x
 numpy==1.26.4
 scipy==1.11.4
 matplotlib==3.8.4
-protobuf==3.20.3
+pillow==10.3.0
 
 # Остальное по проекту
 imageio[ffmpeg]==2.34.1
 fastdtw==0.3.4
-pillow==10.3.0

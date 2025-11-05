@@ -1,10 +1,10 @@
 streamlit==1.39.0
 
-# MediaPipe + его зависимости
+# MediaPipe (тянет совместимый OpenCV)
 mediapipe==0.10.14
 protobuf>=4.25.3,<5
 
-# Научный стек, совместимый с Py3.12 и mediapipe 0.10.x
+# Научный стек (совместим с mediapipe 0.10.x и Py3.12)
 numpy==1.26.4
 scipy==1.11.4
 matplotlib==3.8.4

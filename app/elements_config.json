@@ -1,0 +1,36 @@
+{
+  "handstand": {
+    "title": "Стойка на руках (handstand)",
+    "reference_video": "references/handstand_example.mp4",
+    "fps_hint": 30,
+    "important_joints": {
+      "shoulder": 2.0,
+      "elbow": 1.5,
+      "hip": 2.0,
+      "knee": 1.0,
+      "ankle": 1.0,
+      "torso": 2.0
+    },
+    "tips_thresholds_deg": {
+      "minor": 8,
+      "major": 18
+    }
+  },
+  "squat_jump": {
+    "title": "Прыжок из приседа (squat jump)",
+    "reference_video": "references/squat_jump_example.mp4",
+    "fps_hint": 30,
+    "important_joints": {
+      "hip": 2.0,
+      "knee": 2.0,
+      "ankle": 1.5,
+      "shoulder": 1.0,
+      "elbow": 0.5,
+      "torso": 1.5
+    },
+    "tips_thresholds_deg": {
+      "minor": 10,
+      "major": 20
+    }
+  }
+}
